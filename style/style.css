@@ -1,0 +1,159 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: calibri;
+	color: white;
+	background-color: #222;
+	
+}
+
+body a{
+	color: white;
+	text-decoration: none !important;
+}
+
+#navigation ul {
+	background-color: #222;
+	height: 30px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+
+}
+
+#navigation ul li{
+	cursor: pointer;
+	display: block;
+	float: left;
+	width: auto;
+	padding: 5px;
+	padding-left: 20px; 
+	padding-right: 20px; 
+	margin: 0;
+	background-color: #222;
+	color: white;
+	border-right: 1px solid #999;
+	font-size: 14px;
+	
+}
+#navigation ul li a{
+text-decoration: none;
+color: white;
+	}
+#navigation ul li:hover{
+	background-color: #333;
+}
+
+
+#navigation ul li:hover > .child_ul{
+	display: block;
+}
+
+.child_ul{
+	display: none;
+	list-style:none;
+	z-index: 2000;
+	position:absolute;
+}
+
+.child_ul li{
+	clear: left;
+	min-width: 130px;
+	background-color: #555 !important; 
+}
+
+.child_ul li:hover{
+	background-color: #444 !important; 
+}
+
+
+
+.clearfix:before,
+.clearfix:after{
+content: " ";
+display:block;
+}
+
+.clearfix:after{
+clear:both;
+}
+
+.clearfix{
+*zoom: 1;
+}
+
+#tabs{
+	height: 35px;
+	background-color: #1c1818;	
+	line-height: 33px;
+}
+
+#tabs .intab{
+	width: 200px;
+	height: 100%;
+	background-color: #333;
+	font-size: 14px;
+	padding-left: 25px;	
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	float: left;
+}
+
+.tabtext{
+	width: 70%;
+	float: left;
+}
+.close{
+	width: 10%;
+	padding-right: 15px;
+	float: right;
+	cursor: pointer;
+}
+
+.close img{
+	padding-top: 10px;
+	width: 14px;
+}
+
+#header{
+	font-size: 30px;
+	border-bottom: 5px solid #999;
+}
+
+#login_container{
+	width: 400px;
+	height: auto;
+	margin: 0 auto;
+	vertical-align: center;
+	border:5px solid #999;
+	border-radius: 5px;
+	text-align: center;
+	padding: 20px;
+}
+
+.textbox{
+	width: 350px;
+	height: 30px;
+	font-size: 20px;
+	margin: 0 auto;
+	padding: 5px;
+	margin: 10px;
+}
+
+.login_btn{
+	width: 200px;
+	height: 40px;
+	font-size: 16px;
+	margin: 0 auto;
+	padding: 5px;
+	margin: 10px;
+}
+
+.newtab{
+	width: 40px !important;
+}
+
+.newtab img{
+	padding-top: 10px;
+	width: 14px;
+}
